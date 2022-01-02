@@ -10,7 +10,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration  // 설정정보
+@Configuration  // 설정정보, 어노테이션 생략 시 싱글톤 보장X
 public class AppConfig {
 
     @Bean   // 스프링 컨테이너에 등록
